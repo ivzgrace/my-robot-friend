@@ -115,6 +115,7 @@ h1 {
 	position: relative;
 	top: -120px;
 	left: 85px;
+	z-index: -1;
 }
 
 .right_leg:hover {
@@ -124,6 +125,7 @@ h1 {
     -ms-transform: rotate(-20deg);
 	transform: rotate(-20deg);
 	cursor: pointer;
+	z-index: 1;
 }
 .left_eye, .right_eye { 
 	width: 20px; 
